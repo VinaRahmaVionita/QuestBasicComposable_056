@@ -51,3 +51,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    Project2Theme {
+        Greeting("Android")
+    }
+}
