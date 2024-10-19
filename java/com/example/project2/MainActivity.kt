@@ -50,8 +50,15 @@ fun BasicCompose(modifier: Modifier = Modifier ){
         verticalArrangement = Arrangement.Center,
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.LightGray)
     )
+
+    {
+        //login heading
+        Text(text = "Login",
+
+        )
+
+    }
 }
 
 @Composable
