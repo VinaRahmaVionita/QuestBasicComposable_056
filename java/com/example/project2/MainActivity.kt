@@ -68,7 +68,7 @@ fun BasicCompose(modifier: Modifier = Modifier ){
                 fontSize =  30.sp,
                 color = Color.DarkGray
             ),
-
+            modifier = Modifier.padding(top = 20.dp)
         )
 
     }
