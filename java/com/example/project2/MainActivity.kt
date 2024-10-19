@@ -79,6 +79,11 @@ fun BasicCompose(modifier: Modifier = Modifier ){
                 .size(200.dp)
         )
 
+        //Nama
+        Text(text = "Nama",
+
+        )
+
     }
 }
 
