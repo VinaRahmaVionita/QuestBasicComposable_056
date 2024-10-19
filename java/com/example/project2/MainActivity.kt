@@ -111,6 +111,10 @@ fun BasicCompose(modifier: Modifier = Modifier ){
         //fotoku
         Image(painter = painterResource(id = R.drawable.foto),
             contentDescription = null,
+            modifier = Modifier
+                .padding(top = 10.dp)
+                .padding(bottom = 30.dp)
+                .size(250.dp)
 
         )
 
