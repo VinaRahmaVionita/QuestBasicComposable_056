@@ -55,7 +55,11 @@ fun BasicCompose(modifier: Modifier = Modifier ){
     {
         //login heading
         Text(text = "Login",
-
+            style = TextStyle(
+                fontSize = 50.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red,
+            ),
         )
 
     }
