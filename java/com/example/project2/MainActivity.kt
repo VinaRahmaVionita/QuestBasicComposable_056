@@ -81,7 +81,10 @@ fun BasicCompose(modifier: Modifier = Modifier ){
 
         //Nama
         Text(text = "Nama",
-
+            style = TextStyle(
+                fontSize =  25.sp,
+                color = Color.DarkGray
+            ),
         )
 
     }
