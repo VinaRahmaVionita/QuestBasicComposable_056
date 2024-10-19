@@ -91,7 +91,11 @@ fun BasicCompose(modifier: Modifier = Modifier ){
 
         // isi dari nama
         Text(text = "Vina Rahma Vionita",
-
+            style = TextStyle(
+                fontSize =  30.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.DarkGray
+            ),
         )
 
     }
