@@ -98,6 +98,11 @@ fun BasicCompose(modifier: Modifier = Modifier ){
             ),
         )
 
+        //NIM
+        Text(text = "20220140056",
+
+        )
+
     }
 }
 
