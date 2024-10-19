@@ -115,7 +115,7 @@ fun BasicCompose(modifier: Modifier = Modifier ){
                 .padding(top = 10.dp)
                 .padding(bottom = 30.dp)
                 .size(250.dp)
-
+                .clip(CircleShape)
         )
 
     }
