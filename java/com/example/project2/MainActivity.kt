@@ -89,6 +89,11 @@ fun BasicCompose(modifier: Modifier = Modifier ){
                 .padding(bottom = 15.dp)
         )
 
+        // isi dari nama
+        Text(text = "Vina Rahma Vionita",
+
+        )
+
     }
 }
 
