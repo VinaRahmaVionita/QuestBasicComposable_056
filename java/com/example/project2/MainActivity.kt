@@ -100,6 +100,11 @@ fun BasicCompose(modifier: Modifier = Modifier ){
 
         //NIM
         Text(text = "20220140056",
+            style = TextStyle(
+                fontSize =  30.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            ),
 
         )
 
