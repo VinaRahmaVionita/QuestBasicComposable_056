@@ -64,6 +64,10 @@ fun BasicCompose(modifier: Modifier = Modifier ){
 
         //SubHeading
         Text(text = "Ini adalah halaman Login",
+            style = TextStyle(
+                fontSize =  30.sp,
+                color = Color.DarkGray
+            ),
 
         )
 
