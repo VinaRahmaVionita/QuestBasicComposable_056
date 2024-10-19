@@ -62,6 +62,11 @@ fun BasicCompose(modifier: Modifier = Modifier ){
             ),
         )
 
+        //SubHeading
+        Text(text = "Ini adalah halaman Login",
+
+        )
+
     }
 }
 
